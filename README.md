@@ -1,91 +1,96 @@
-<div align="center">
+# JARVIS Workspace — New User Guide
 
-# J.A.R.V.I.S Workspace
+Welcome! JARVIS Workspace is a one-click virtual desktop & app launcher for Windows 10/11. This guide walks you through your **first-time setup** and **first launch**.
 
-**One-click virtual desktop & app launcher for Windows 10/11**
-
-[![Release](https://img.shields.io/github/v/release/hassanramzan11/Jarvis-Workspace?color=blue&label=Latest%20Release)](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?logo=windows)](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
-<br/>
-
-> Define your workspace once. Launch everything with one click.
-
-<br/>
-
-[**Download v1.0.0**](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest) &nbsp;·&nbsp; [Source Code](https://github.com/hassanramzan11/Jarvis-Workspace/tree/version-1.0.0) &nbsp;·&nbsp; [Report a Bug](https://github.com/hassanramzan11/Jarvis-Workspace/issues)
-
-</div>
+> If you've used JARVIS before, skip ahead to your profiles in `%APPDATA%\JarvisWorkspace\`.
 
 ---
 
-## What is JARVIS Workspace?
+## Step 1 — Install the App
 
-JARVIS Workspace lets you define a complete multi-desktop environment — which virtual desktops to create, what each one is called, and which apps open on each — then recreate it instantly with a single button press.
+1. Download the latest release zip.
+2. Extract the folder anywhere on your PC.
+3. Double-click **`Install.bat`**.
+4. If Windows shows a SmartScreen warning, click **More info → Run anyway**.
 
-No more manually opening 10 apps across 4 desktops every morning. Define it once, launch it forever.
+The installer automatically:
+- Copies files to `%USERPROFILE%\AppData\Local\JarvisTools\`
+- Downloads `VirtualDesktop.exe` (used to manage virtual desktops)
+- Adds a **Desktop shortcut** and **Start Menu entry** named "JARVIS Workspace"
+- Installs an uninstaller
 
----
-
-## Features
-
-- **Named Virtual Desktops** — create and label desktops like *Office*, *Code*, *Personal*
-- **Per-desktop App Lists** — assign `.lnk`, `.exe`, or `.url` files to each desktop
-- **One-click Launch** — hit **LET'S COOK** and watch your workspace build itself
-- **Profiles** — save multiple workspace layouts and switch between them instantly
-- **Portable Profiles** — stored as plain JSON, easy to back up or share
-- **Clean Uninstaller** — removes the app while preserving your profiles
+When it finishes, you can launch JARVIS from your Desktop or Start Menu.
 
 ---
 
-## Download & Install
+## Step 2 — Open JARVIS for the First Time
 
-1. Go to the [**Releases page**](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest)
-2. Download **`JarvisWorkspace-Setup-1.0.0.exe`**
-3. Run the installer — if Windows shows a SmartScreen warning, click **More info → Run anyway**
-4. A shortcut named **JARVIS Workspace** will appear on your Desktop and Start Menu
+Double-click the **JARVIS Workspace** shortcut on your Desktop.
 
----
-
-## Quick Start
-
-| Step | Action |
-|------|--------|
-| 1 | Open **JARVIS Workspace** from your Desktop |
-| 2 | Click **New Profile** and give it a name |
-| 3 | Add desktops and name them (e.g. *Office*, *Code*) |
-| 4 | Drag app shortcuts into each desktop |
-| 5 | Click **SAVE PROFILE** |
-| 6 | Click **LET'S COOK** — done |
+You'll see a GUI with two main sections:
+- **Profile selector** (top) — switch between saved workspace layouts
+- **Desktops & apps** (main area) — define what your workspace looks like
 
 ---
 
-## System Requirements
+## Step 3 — Create Your First Profile
 
-| Requirement | Details |
-|-------------|---------|
-| OS | Windows 10 (build 1809+) or Windows 11 |
-| Architecture | x64 |
-| Permissions | Standard user (no admin required) |
+1. Click **New Profile** and give it a name (e.g. *Work*, *Gaming*, *Study*).
+2. For each virtual desktop you want, click **Add Desktop** and name it — for example:
+   - **Desktop 1:** Office (Outlook, Word, Excel)
+   - **Desktop 2:** Code (VS Code, Terminal, Browser)
+   - **Desktop 3:** Personal (Spotify, WhatsApp)
+3. **Drag and drop** your app shortcuts into each desktop. You can drag:
+   - `.lnk` shortcuts from your Desktop or Start Menu
+   - `.exe` files directly
+   - `.url` web shortcuts (open a website on launch)
+4. Click **SAVE PROFILE**.
 
----
-
-## Uninstall
-
-Run **`Uninstall.bat`** from the install folder, or use *Add/Remove Programs*.
-Your profiles in `%APPDATA%\JarvisWorkspace\` are preserved.
-
----
-
-## Source Code
-
-The full source is available on the [`version-1.0.0`](https://github.com/hassanramzan11/Jarvis-Workspace/tree/version-1.0.0) branch.
+> Tip: Right-click any app in the list to remove it or change its launch order.
 
 ---
 
-<div align="center">
+## Step 4 — Launch Your Workspace
 
-Built by **Saad** &nbsp;|&nbsp; Powered by **Claude**
+Click the big **LET'S COOK** button.
 
-</div>
+JARVIS will:
+1. Create the named virtual desktops in order
+2. Switch to each desktop and launch its apps
+3. Return you to the first desktop, ready to work
+
+That's it — your full environment is set up in seconds.
+
+---
+
+## Where Your Data Lives
+
+| What | Location |
+|------|----------|
+| Profiles | `%APPDATA%\JarvisWorkspace\profiles\*.json` |
+| Installed app files | `%USERPROFILE%\AppData\Local\JarvisTools\` |
+
+Profiles are plain JSON — you can back them up, share them, or edit them by hand.
+
+---
+
+## Uninstalling
+
+Run **`Uninstall.bat`** from the install folder.
+Your profiles in `%APPDATA%\JarvisWorkspace\` are kept so you can reinstall later without losing your setup.
+
+---
+
+## Troubleshooting (First-Time Issues)
+
+- **"Windows protected your PC" popup** — click *More info → Run anyway*. The installer is unsigned but safe.
+- **Virtual desktops not switching** — make sure you're on Windows 10 build 1809+ or Windows 11.
+- **An app didn't launch** — check that the shortcut path still exists; re-add it if needed.
+
+---
+
+## Need Help?
+
+Open an issue on the project repo, or check the existing profiles in `%APPDATA%\JarvisWorkspace\profiles\` for examples.
+
+Built by Saad with help from Claude.
