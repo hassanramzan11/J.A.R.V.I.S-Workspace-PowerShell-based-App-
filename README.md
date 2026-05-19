@@ -4,9 +4,9 @@
 
 **One-click virtual desktop & app launcher for Windows 10/11**
 
-[![Release](https://img.shields.io/github/v/release/hassanramzan11/Jarvis-Workspace?color=blue&label=Latest%20Release)](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?logo=windows)](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-?color=blue&label=Latest%20Release)](https://github.com/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?logo=windows)](https://github.com/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-/releases/latest)
+
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 <br/>
 
-[**Download v1.0.0**](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest) &nbsp;·&nbsp; [Source Code](https://github.com/hassanramzan11/Jarvis-Workspace/tree/version-1.0.0) &nbsp;·&nbsp; [Report a Bug](https://github.com/hassanramzan11/Jarvis-Workspace/issues)
+[**Download v1.0.0**](https://github.com/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-/releases/latest) &nbsp;·&nbsp; [Source Code](https://github.com/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-/tree/version-1.0.0) &nbsp;·&nbsp; [Report a Bug](https://github.com/hassanramzan11/Jarvis-Workspace/issues)
 
 </div>
 
@@ -41,7 +41,7 @@ No more manually opening 10 apps across 4 desktops every morning. Define it once
 
 ## Download & Install
 
-1. Go to the [**Releases page**](https://github.com/hassanramzan11/Jarvis-Workspace/releases/latest)
+1. Go to the [**Releases page**](https://github.com/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-/releases/latest)
 2. Download **`JarvisWorkspace-Setup-1.0.0.exe`**
 3. Run the installer — if Windows shows a SmartScreen warning, click **More info → Run anyway**
 4. A shortcut named **JARVIS Workspace** will appear on your Desktop and Start Menu
@@ -80,7 +80,7 @@ Your profiles in `%APPDATA%\JarvisWorkspace\` are preserved.
 
 ## Source Code
 
-The full source is available on the [`version-1.0.0`](https://github.com/hassanramzan11/Jarvis-Workspace/tree/version-1.0.0) branch.
+The full source is available on the [`version-1.0.0`](https://github.com/hassanramzan11/J.A.R.V.I.S-Workspace-PowerShell-based-App-/tree/version-1.0.0) branch.
 
 ---
 
